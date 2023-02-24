@@ -1,0 +1,3 @@
+export const CONSTANT_TYPES = {
+  CAKE_ORDERED: "CAKE_ORDERED",
+};
