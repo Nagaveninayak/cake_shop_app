@@ -27,3 +27,7 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(DynamicCakeContainer);
+
+/**
+ * ?: Usage of the action payload to pass the data to the reducer
+ */
