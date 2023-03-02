@@ -1,5 +1,6 @@
-export const cakeActionGenerator = (type) => {
+export const cakeActionGenerator = (type, number = 1) => {
   return {
-    type,
+    type: type,
+    payload: number,
   };
 };

@@ -9,7 +9,7 @@ const cakeReducer = (state = INITIAL_STATE, action) => {
     case CONSTANT_TYPES.CAKE_ORDERED: {
       return {
         ...state,
-        numberOfCakes: state.numberOfCakes - 1,
+        numberOfCakes: state.numberOfCakes - action.payload,
       };
     }
     default: {
