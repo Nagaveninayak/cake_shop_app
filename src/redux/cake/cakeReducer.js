@@ -1,4 +1,4 @@
-import { CONSTANT_TYPES } from "./cakeTypes";
+import { CONSTANT_TYPES } from "../containerTypes";
 
 const INITIAL_STATE = {
   numberOfCakes: 10,

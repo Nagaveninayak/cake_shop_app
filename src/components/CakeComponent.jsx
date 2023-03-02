@@ -1,6 +1,6 @@
 import React from "react";
-import { CONSTANT_TYPES } from "../redux/cake/cakeTypes";
 import { connect } from "react-redux";
+import { CONSTANT_TYPES } from "../redux/containerTypes";
 import { cakeActionGenerator } from "../redux";
 
 function CakeComponent(props) {
@@ -14,7 +14,7 @@ function CakeComponent(props) {
 
 const mapStateToProps = (state) => {
   return {
-    numberOfCakes: state.numberOfCakes
+    numberOfCakes: state.cake.numberOfCakes
   }
 }
 
