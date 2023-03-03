@@ -6,6 +6,7 @@ import CakeComponent from "./components/CakeComponent";
 import IcecreamComponent from "./components/IcecreamComponent";
 import DynamicCakeContainer from "./components/DynamicCakeContainer";
 import PropsItemContainer from "./components/PropsItemContainer";
+import UsersComponent from "./components/usersComponent";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <h5>Access via props</h5>
         <PropsItemContainer cake />
         <PropsItemContainer />
+        <UsersComponent />
       </div>
     </Provider>
   );
